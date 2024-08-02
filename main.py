@@ -158,7 +158,7 @@ def main():
         confidence = 0
 
         # Initialize webcam
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
 
         if 'start' not in st.session_state:
             st.session_state.start = False
