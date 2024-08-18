@@ -81,7 +81,7 @@ def predict_live_action(frames_list, SEQUENCE_LENGTH, model, CLASSES_LIST):
 
 def display_intro():
     st.title("3D Sign Language Recognition System")
-    # st.image(r"C:\Users\user2\Desktop\logo_image.jpeg", use_column_width=False)
+    st.image(r"logo_image.jpeg", use_column_width=False)
     st.write("""
              
     DEVELOPED BY MOHAMED FASI ALTAF
